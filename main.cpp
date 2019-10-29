@@ -1,8 +1,19 @@
-#include "src/map_generator.h"
+#include <iostream>
+#include <fstream>
+#include <cstdio>
+#include <cstdlib>
+#include <ctime>
+#include <string>
 
+#include <MapGenerator.h>
+
+using namespace std;
+//---------------------------------------------
 int main () {
+	srand((unsigned int)time(0));
 
-    MapTextFile ();
+	GeneralMapInfo hdr;
+	RestofDungeon rd;
 
-  return 0;
+	return 0;
 }
